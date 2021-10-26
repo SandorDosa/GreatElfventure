@@ -23,6 +23,7 @@ function getbonusindex($elf,$type){
             $ret = "W";
         break;
     }
+    echo "<!-- getbonusindex(".$elf.",".$type.") ".$ret."_".$type." -->\n";
     return $ret.'_'.$type;
 }
 function settarget($elf,$tar,$mtar,$btar){
@@ -56,6 +57,6 @@ function settarget($elf,$tar,$mtar,$btar){
             $_SESSION[$meta] = $mtar;
         }
     }
-   // echo $_SESSION[$index]," tar ",$_SESSION[$meta]," mtar ",$_SESSION[$bonus]," btar";
+    echo "<!-- settarget(".$elf.",".$tar.",".$mtar.",".$btar.") ".$_SESSION[$index]." tar ".$_SESSION[$meta]." mtar ".$_SESSION[$bonus]." btar -->\n";
     return 0;
 }
