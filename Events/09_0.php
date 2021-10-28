@@ -11,7 +11,8 @@
 
 <body>
 
-Mighty fine placeholder you got there.
+<p>[File truncated for development purposes]</p>
+
 
 <?php
 if($_SESSION["YEAR"]<9){

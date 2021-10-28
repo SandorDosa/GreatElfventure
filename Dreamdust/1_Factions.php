@@ -12,13 +12,10 @@
 </head>
 
 <body>
-    <h1>Factions</h1>
-    <h2>Mystics</h2>
-    <p>"I saw five vultures flying North!  You know what that means, Dave!"</p>
-    <h2>Pragmatists</h2>
-    <p>"STOP TALKING ABOUT VULTURES STEVE, NO ONE CARES ABOUT THE VULTURES."</p>
-        
-    <?php
+<h1>Factions</h1>
+<p>[File truncated for development purposes]</p>
+
+<?php
     include '../settarget.php'; 
     settarget("Dreamdust",null,2,null);
     include 'footer.php';
